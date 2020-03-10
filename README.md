@@ -7,13 +7,16 @@ code folder is divided into models and resouces folder
 
 migrate.py file is migration file for this app.
  
- python migrate.py db init
- python migarate.py db migrate
+python migrate.py db init
+ 
+python migarate.py db migrate
  
   
 
-End points:
+# End points:
+
 1.http://localhost:5000/item/<string:name>
+
 verbs: Get, Post, Delete, Put
 
 2.http://localhost:5000/items  <--- to view all the books
